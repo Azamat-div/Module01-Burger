@@ -208,7 +208,7 @@ header {
   display: grid;
   text-align: center;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 50px 20px;
   margin-top: 34px;
   margin-bottom: 100px;
 }
@@ -245,14 +245,23 @@ header {
   margin-bottom: 20px;
 }
 .menu-grid-btn {
-  width: 152px;
-  height: 38px;
+  background-color: #FBB731;
   border-radius: 5px;
-  background: #FBB731;
+  padding: 10px 32px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 9px;
 }
 .menu-grid-icon {
-  padding: 5px;
+  background-image: url(../images/cart-menu.svg);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 .menu-grid-text {
   color: #1E2F40;
@@ -260,4 +269,61 @@ header {
   font-weight: 700;
   line-height: 18px; 
   text-transform: uppercase;
+}
+.footer {
+  background: #1E2F40;
+  color: #fff;
+  padding-top: 117px;
+  padding-bottom: 106px;
+  margin-top: 140px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 63px;
+  height: 56px;
+}
+.footer-item {
+  flex: 0 0 auto;
+}
+.footer-item h2 {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  margin: 0;
+}
+.footer-item li {
+  margin-bottom: 9px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #FAF9F9;
+  font-weight: 700;
+  line-height: 24px;
+}
+.footer-item a {
+  color: #DEDEDE;
+  text-decoration: none;
+  font-weight: 400;
+}
+.footer-item span {
+  color: #DEDEDE;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.footer-tel ul {
+  font-size: 20px;
+  font-weight: 900;
+  color: #FBB731;
+  margin-top: 0;
+}
+.footer-tel li {
+  margin-bottom: 12px;
+}
+.footer-list {
+  padding-left: 0;
+  list-style-type: none;
 }
