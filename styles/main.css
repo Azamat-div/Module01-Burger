@@ -7,7 +7,7 @@ body {
   padding-left: 15px;
 }
 header {
-  border-bottom: 1px solid #DEDEDE;
+  border-bottom: 1px solid #dedede;
 }
 .header {
   font-family: "Open Sans", sans-serif;
@@ -106,7 +106,7 @@ header {
   gap: 7px;
 }
 .breadcrumbs a {
-  color: #DEDEDE;
+  color: #dedede;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
@@ -115,7 +115,7 @@ header {
   color: #ffc725;
 }
 .breadcrumbs a:hover::before {
-  color: #DEDEDE;
+  color: #dedede;
 }
 .breadcrumbs a::before {
   content: "/";
@@ -143,19 +143,20 @@ header {
 .banner-box {
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-size: cover;
+  background-position: 0 center;
   padding: 100px 100px 120px;
   margin-bottom: 80px;
 }
 .banner-title {
   font-size: 60px;
   font-weight: 900;
-  color:#ffffff;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 12px;
-} 
+}
 .banner-title span {
-  font-size: 14px; 
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -166,7 +167,7 @@ header {
   max-width: 96px;
   text-align: center;
   margin-bottom: 9px;
-} 
+}
 .banner-text {
   color: #faf9f9;
   font-size: 15px;
@@ -181,15 +182,15 @@ header {
   padding: 18px 25px;
   text-transform: uppercase;
   text-decoration: none;
-  color:#1E2F40;
-  background-color: #FBB731;
+  color: #1e2f40;
+  background-color: #fbb731;
   border-radius: 5px;
-  border: 1px solid #FBB731;
+  border: 1px solid #fbb731;
   transition: 0.3s;
 }
 .banner-link:hover {
   background-color: transparent;
-  color: #FBB731;
+  color: #fbb731;
 }
 .menu {
   padding-top: 20px;
@@ -203,11 +204,11 @@ header {
   font-size: 44px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #1B2A49;
+  color: #1b2a49;
   margin: 0;
 }
 .menu-select {
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   padding: 13px 30px;
   border-radius: 22px;
   color: #443737;
@@ -244,10 +245,10 @@ header {
   height: 430px;
 }
 .menu-grid-title {
-  color: #1B2A49;
+  color: #1b2a49;
   font-size: 30px;
   font-weight: 600;
-  line-height: 38px; 
+  line-height: 38px;
   margin: 0;
   margin-bottom: 5px;
 }
@@ -260,7 +261,7 @@ header {
   margin-bottom: 20px;
 }
 .menu-grid-btn {
-  background-color: #FBB731;
+  background-color: #fbb731;
   border-radius: 5px;
   padding: 10px 32px;
   border: none;
@@ -271,7 +272,7 @@ header {
   gap: 9px;
 }
 .menu-grid-btn:hover {
-  background-color: #F37335;
+  background-color: #f37335;
 }
 .menu-grid-icon {
   background-image: url(../images/cart-menu.svg);
@@ -282,14 +283,14 @@ header {
   height: 18px;
 }
 .menu-grid-text {
-  color: #1E2F40;
+  color: #1e2f40;
   font-size: 14px;
   font-weight: 700;
-  line-height: 18px; 
+  line-height: 18px;
   text-transform: uppercase;
 }
 .footer {
-  background: #1E2F40;
+  background: #1e2f40;
   color: #fff;
   padding-top: 117px;
   padding-bottom: 106px;
@@ -317,20 +318,20 @@ header {
   margin-bottom: 9px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  color: #FAF9F9;
+  color: #faf9f9;
   font-weight: 700;
   line-height: 24px;
 }
 .footer-list a {
-  color: #DEDEDE;
+  color: #dedede;
   text-decoration: none;
   font-weight: 400;
 }
 .footer-list a:hover {
-  color: #FBB731;
-} 
+  color: #fbb731;
+}
 .footer-item span {
-  color: #DEDEDE;
+  color: #dedede;
   display: block;
   font-weight: 400;
   margin-bottom: 2px;
@@ -344,7 +345,7 @@ header {
 .footer-list-tel a {
   font-size: 20px;
   font-weight: 900;
-  color: #FBB731;
+  color: #fbb731;
 }
 .footer-list-tel a:hover {
   color: #ffffff;
@@ -355,11 +356,11 @@ header {
 }
 
 .button-up {
-  background-color: #FBB731;
+  background-color: #fbb731;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  color: #1E2F40;
+  color: #1e2f40;
   text-decoration: none;
   padding: 5px 20px;
   position: fixed;
@@ -369,7 +370,7 @@ header {
   transition: 1s;
 }
 .button-up:hover {
-  background-color: #F37335;
+  background-color: #f37335;
 }
 .button-up.hidden {
   opacity: 0;
@@ -378,10 +379,10 @@ header {
   opacity: 1;
 }
 
-/* Style INDEX */ 
+/* Style INDEX */
 
 .main {
-  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+  background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
 }
 .wrapper {
   max-width: 1180px;
@@ -390,7 +391,7 @@ header {
   justify-content: space-between;
 }
 .content {
-  color: #FAF9F9;
+  color: #faf9f9;
   flex: 0 0 580px;
   padding-top: 170px;
   padding-bottom: 170px;
@@ -405,7 +406,7 @@ header {
   margin-bottom: 0;
 }
 .content-title span {
-  color: #FBB731;
+  color: #fbb731;
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
@@ -413,15 +414,15 @@ header {
   margin-bottom: 10px;
 }
 .content-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 19px;
   line-height: 1.4;
   margin-bottom: 42px;
 }
 .content-link,
 .promo a {
-  color: #1E2F40;
-  background-color: #FBB731;
+  color: #1e2f40;
+  background-color: #fbb731;
   border-radius: 5px;
   text-decoration: none;
   padding: 20px 45px;
@@ -439,7 +440,12 @@ header {
 .visual-bg {
   width: 432px;
   height: 100%;
-  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+  background: linear-gradient(
+    2.42deg,
+    #f37335 -19.6%,
+    #fbb731 100.79%,
+    #fdc830 100.79%
+  );
 }
 .main img {
   width: 829px;
@@ -470,7 +476,7 @@ header {
 .sale {
   font-size: 14px;
   font-weight: 900;
-  background: #F37335;
+  background: #f37335;
   padding: 5px 19px;
   border-radius: 14px;
   display: inline-block;
@@ -485,8 +491,8 @@ header {
   margin-top: 0;
 }
 .promo-description {
-  font-family: 'Open Sans', sans-serif;
-  color: #FAF9F9;
+  font-family: "Open Sans", sans-serif;
+  color: #faf9f9;
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 0;
@@ -503,4 +509,34 @@ header {
   font-weight: 700;
   margin-bottom: 10px;
   margin-top: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 738px;
+  }
+  .header-logo {
+    width: 150px;
+    height: 48px;
+    background-size: contain;
+  }
+  .header-nav {
+    gap: 22px;
+  }
+  .header-item {
+    flex-basis: 75.5%;
+  }
+  .bg {
+    margin-bottom: 72px;
+  }
+  .banner-box {
+    background-position: -80px center;
+    padding: 100px 40px 120px;
+  }
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 15px;
+  }
 }
